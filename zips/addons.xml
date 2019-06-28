@@ -73,9 +73,9 @@
 			<datadir zip="true">https://raw.githubusercontent.com/jmartinez80/subaru/master/zips/</datadir>
 			<hashes>false</hashes>
 			<dir>
-				<info compressed="false">https://raw.githubusercontent.com/totalrevolution/totalrevolution/master/zips/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/totalrevolution/totalrevolution/master/zips/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/totalrevolution/master/zips/</datadir>
+				<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
 			</dir>
 			<dir>
 				<info compressed="false">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml</info>
@@ -120,16 +120,6 @@
 				<info compressed="true">https://github.com/mikesilvo164/repo.aeon.nox.silvo/raw/master/leia/addons.xml</info>
 				<checksum>https://github.com/mikesilvo164/repo.aeon.nox.silvo/raw/master/leia/addons.xml.md5</checksum>
 				<datadir zip="true">https://github.com/mikesilvo164/repo.aeon.nox.silvo/raw/master/leia</datadir>
-			</dir>
-			<dir>
-				<info compressed="false">https://raw.githubusercontent.com/Maverick53/modrepo/master/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/Maverick53/modrepo/master/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/Maverick53/modrepo/master/plugins/</datadir>
-			</dir>
-			<dir>
-				<info compressed="false">https://raw.githubusercontent.com/Maverick53/repo/master/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/Maverick53/repo/master/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/Maverick53/repo/master/plugins/</datadir>
 			</dir>
 		</extension>
 		<extension point="xbmc.addon.metadata">
