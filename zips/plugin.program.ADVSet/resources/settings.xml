@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+
+	<category label="Mantenimiento">
+		<setting type="lsep" label="Menu Mantenimiento: "/>
+		<setting id="showmaint" type="bool" label="Mostrar todas las Secciones" default="false"/>
+		<setting type="lsep" label="Carpeta del Backup: "/>
+		<setting id="path" type="folder" label="Elige Destino del Backup" default=""/>
+		<setting type="lsep" label="Limpieza Automática:"/>
+		<setting id="autoclean" type="bool" label="Ejecutar Borrado Automático al inicio" default="true"/>
+		<setting id="clearcache" type="bool" label="Borrar Cache al inicio" default="true" enable="!eq(-1,false)"/>
+		<setting id="clearpackages" type="bool" label="Borrar Packages al inicio" default="true" enable="!eq(-2,false)"/>
+		<setting id="clearthumbs" type="bool" label="Borrar Iconos al inicio" default="true" enable="!eq(-3,false)"/>
+		<setting id="autocleanfeq" type="enum" label="Frecuencia de Ejecución?" values="Siempre|A Diario|Cada 3 Dias|Semanal" enable="!eq(-4,false)"/>
+		<setting id="nextautocleanup" type="text" label="Próxima Limpieza: " enable="false" visible="false" default=""/>
+		<setting type="lsep" label="Borrar Cache de Video:"/>
+		<setting id="includevideo" type="bool" label="Incluye Cache de Addons de Video en Borrado: " default="true"/>
+		<!--setting id="includeall" type="bool" label="Incluye All Addons: " default="true" enable="!eq(-1,false)" visible="!eq(-1,false)"/-->
+	</category>
+
+	<category label="Vistas">
+		<setting id="auto-view" type="bool" label="Habilita Vista Automática" default="true"/>
+		<setting id="viewType" type="number" label="Tipo de Vista" default="50" enable="!eq(-1,false)"/>
+	</category>
+
+</settings>
