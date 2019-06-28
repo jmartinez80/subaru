@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.ADVSet" name="[COLOR orange] ADV [/COLOR]Set" version="2.4" provider-name="Chem@i">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+  <summary>ADV Set - Utilidades by Chem@i</summary>
+  <description>ADV Set. Utilidades extraídas de la web, siendo propiedad de sus autores, para el mantenimiento, optimización, y backup de Kodi. Utilízalo con precaución.</description>
+	<news>[COLOR orange] ADV [/COLOR]Set v 2.4
+* Modificacion en test de los archivos Advanced Settings.
+
+	  </news>
+	  <disclaimer>[COLOR red][B]Enjoy KODI.[/B][/COLOR]</disclaimer>
+	  <platform>all</platform>
+	  <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    			<screenshot>resources/media/screenshot000.jpg</screenshot>
+    			<screenshot>resources/media/screenshot001.jpg</screenshot>
+    			<screenshot>resources/media/screenshot002.jpg</screenshot>
+    			<screenshot>resources/media/screenshot003.jpg</screenshot>
+    			<screenshot>resources/media/screenshot004.jpg</screenshot>				
+    </assets>
+    <license>GNU/GPL - v2</license>
+    <forum>https://docs.google.com/document/d/1nMUbPzMsP8f96eQBmLrd3vgYkEOyCAsfGif76VzazDM/edit</forum>
+    <website>web</website>
+    <email>my@email.com</email>
+    <source>https://</source>
+  </extension>
+  
+  <extension point="xbmc.addon.repository" name="Mi repositorio">
+        <info>https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/</datadir>
+    </extension>
+  
+</addon>
